@@ -15,7 +15,7 @@ public class Produto {
 	private String nome;
 	private int unidade;
 	private BigInteger valor;
-	private String descrição;
+	private String descricao;
 
 	public long getId() {
 		return id;
@@ -49,12 +49,12 @@ public class Produto {
 		this.valor = valor;
 	}
 
-	public String getDescrição() {
-		return descrição;
+	public String getDescricao() {
+		return descricao;
 	}
 
-	public void setDescrição(String descrição) {
-		this.descrição = descrição;
+	public void setDescricao(String descricao) {
+		this.descricao = descricao;
 	}
 
 }
